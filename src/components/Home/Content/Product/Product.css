@@ -1,0 +1,204 @@
+.product{
+    padding: 32px 0 30px;
+}
+.product__back{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding-left: 40px;
+    padding-bottom: 52px;
+}
+.product__back-btn{
+
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+    transition: .5s;
+}
+.product__back-btn:hover{
+    transition: .5s;
+    color: #FF9846;
+}
+.product__content{
+    display: flex;
+    padding: 52px 0 30px;
+    background-color: white;
+    column-gap: 40px;
+}
+.product__content-img{
+    width: 475px;
+    height: 435px;
+}
+.product__content-info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 47px 0;
+    row-gap: 30px;
+    align-items: center;
+}
+.product__content-info-title{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+.content__card-sizes{
+    padding-top: 10px;
+    transition: .5s;
+}
+.product__content-info-block{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.product__content-info-price{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.product__content-info-minus{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.product__content-info-count{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.product__content-info-add{
+    background: #F46D40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: .5s;
+}
+.product__content-info-add:hover{
+    transition: .5s;
+    background-color: red;
+}
+
+.product__content-info-buy{
+    background: #F46D40;
+    width: 180px;
+    height: 40px;
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F2F2F2;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.product__content-info-buy:hover{
+    transition: .5s;
+    background-color: red;
+}
+.product__rec{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 22px;
+}
+.swiper__block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.swiper__img{
+    background-color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.swiper-wrapper{
+    width: 600px!important;
+}
+.swiper__title{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    white-space: nowrap;
+}
+.swiper__cost{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.swiper__price{
+    font-family: DIN Proб sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.swiper__add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FF9846;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.swiper__add:hover{
+    transition: .5s;
+    background-color: red;
+}
+.swiper-button-next{
+        color: black!important;
+    position: absolute!important;
+    right: -2px!important;
+    top: 36%!important;
+}
+.swiper-button-prev{
+    color: black!important;
+    position: absolute!important;
+    left: -2px!important;
+    top: 36%!important;
+}
+
+

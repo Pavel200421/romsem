@@ -1,0 +1,130 @@
+.reviews{
+    padding: 50px 29px 44px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    margin-bottom: 22px;
+}
+.reviews__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviews__header-title{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #111111;
+}
+.reviews__header-btn{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    color: #F2F2F2;
+    background-color: black;
+    width: 180px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+}
+.reviews__header-btn:hover{
+    background-color: #FF9846;
+    transition: .5s;
+}
+
+.reviews-list{
+    display: flex;
+    flex-direction: column;
+}
+.reviews__item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 22px;
+    background-color: #fff;
+}
+.reviews__item-header{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.reviews__item-name{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #111111;
+}
+.reviews__item-date{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #A4ACAD;
+}
+
+.reviews__item-text{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.reviews__form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.reviews__form-input{
+    width: 30%;
+    height: 25px;
+    outline: none;
+    padding-left: 5px;
+}
+.reviews__form-area{
+    width: 60%;
+    height: 150px;
+    resize: none;
+    outline: none;
+    padding-left: 5px
+}
+.reviews__form-submit{
+    width: 150px;
+    height: 30px;
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F2F2F2;
+    background: #111111;
+    border-radius: 5px;
+    transition: .5s;
+    border: none;
+}
+.reviews__form-submit:hover{
+    transition: .5s;
+    background-color: #FF9846;
+}
+.reviews__form-area::placeholder, .reviews__form-input::placeholder{
+    font-size: 16px;
+}
+.reviews__form-btns{
+    display: flex;
+    column-gap: 20px;
+}

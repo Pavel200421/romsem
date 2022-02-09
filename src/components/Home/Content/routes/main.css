@@ -1,0 +1,24 @@
+.mySwiper{
+    display: block!important;
+    padding-top: 50px!important;
+    position: relative!important;
+}
+.main__swip-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__swiper-img{
+    width: 900px;
+    height: 470px;
+    cursor: pointer;
+}
+.swiper-button-next{
+    display: none!important;
+}
+.swiper-button-prev{
+    display: none!important;
+}
+.swiper-pagination-bullet{
+    background-color: #FF9846!important;
+}

@@ -1,0 +1,83 @@
+.information{
+padding: 174px 0 30px;
+}
+.information__info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.information__title{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #A4ACAD;
+}
+.information__subtitle{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #A4ACAD;
+}
+.information__subtitle-1{
+    padding: 10px 0 0 0;
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #A4ACAD;
+}
+.information__list{
+    padding: 20px 0 10px 10px;
+    list-style-type: circle!important;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.information__list-item{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #A4ACAD;
+}
+.information__subtitle-2{
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #A4ACAD;
+    opacity: 80%;
+}
+.information__subtitle-2-span-1{
+    opacity: 70%;
+}
+.information__subtitle-2-span-2{
+    opacity: 60%;
+}
+
+.information__btn{
+    display: block;
+    margin: 40px auto;
+    border: none;
+    background-color: transparent;
+    font-family: DIN Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    color: #F46D40;
+    cursor: pointer;
+    outline: none;
+}
+
+.information__arrow{
+    margin-left: 5px;
+}
+
